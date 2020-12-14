@@ -1,0 +1,18 @@
+// Variables
+@import "../../style/common/variables.scss";
+// Typeface
+@import "../../style/common/typeface";
+
+.white {
+  background: white !important;
+  color: rgb(168, 161, 161) !important;
+}
+
+.contact {
+  input {
+    border: 1px solid rgb(182, 182, 182) !important;
+  }
+  input:focus {
+    border: 2px solid #67bc46 !important;
+  }
+}
