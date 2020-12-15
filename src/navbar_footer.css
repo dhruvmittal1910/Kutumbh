@@ -1,0 +1,32 @@
+.navbar{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.navbar li{
+    display: inline;
+    float: right;
+}
+.navbar li a{
+    display: block;
+    padding: 15px;
+    color:white;
+    
+}
+.navbar li a:hover{
+    background-color: #111;
+}
+.active{
+     background-color: #21BA45;
+}
+.footer{
+    position: fixed;
+    background-color:#21BA45;
+    color: white;
+    text-align: center;
+}
+.instruct h2{
+    text-align: center;
+    text-shadow: #21BA45;
+    color: black;
+}
